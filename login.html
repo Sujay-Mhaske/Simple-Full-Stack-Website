@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Login</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='stylesheets/style.css') }}" />
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='stylesheets/bootstrap.min.css') }}" />
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='stylesheets/bootstrap.css') }}" />
+    <script src="{{url_for('static', filename='javascript.js')}}"></script>
+</head>
+<body>
+<div class="col-md-12">
+<div class="col-md-2">
+ </div>
+<div class="col-md-8 panel panel-primary" style="border: 2px solid blue">
+        <div class="panel-header">
+    </div>
+<div class="panel-body">
+
+<body style="background-color: powderblue;">
+<style>p{margin-top:50px;}</style>
+<h1 align="center">Login</h1>
+
+<form align="center" action="/" method="POST">
+  <p><input placeholder="Username" type = "text" size="30" style="height:40px;" name = "username" autocomplete="off" required /></p>
+  <p><input placeholder="Password" type = "password" size="30" style="height:40px;" name = "password" required /></p>
+  <p><input type = "submit"/></p>
+</form>
+</body>
+
+
+</div>
+  <div class="col-md-2">
+ </div>
+</div>
+ </div>
+
+</body>
+</html>
